@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+#imagenes-1{
+    right: 10px;
+}
+
+.cuadro{
+    margin: 25px;
+    
+}
+/*    -------------------------------------------top---------------------------------------------------    */
+.contenedor{
+    display: flex;
+    background-color: rgb(39, 34, 34);
+    align-items: center;
+}
+.titulo-1{
+    color: white;
+    margin: 0%;
+    margin-right: 590px;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+}
+/*    -------------------------------------------blue---------------------------------------------------    */
+#titulo{
+    background-image: url(./img-css/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+    position: relative;
+    
+}
+#enlace{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background: rgb(219, 4, 129);
+    border-radius: 50px;
+    width: 200px;
+    position: relative;
+    left: 42%;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding: 150px 0px 100px 0px;
+    margin: 0%;
+    
+}
+.sapo{
+    color: white;
+    text-decoration: none;
+}
+
+/*    -------------------------------------------medio---------------------------------------------------    */
+.medio{
+    display: flex;
+   align-items: flex-start;
+    
+}
+.red{
+    
+    font-size: 23px;
+    width: 350px;
+    text-align: center;
+    padding: 50px;
+}
+.fondo{
+    background-color: rgb(8, 4, 37);
+}
+.color{
+    color: white;
+    text-decoration: none;
+}
+.pain{
+    color: rgb(219, 4, 129);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+}
+ul{
+    margin: 0%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.enlace{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    background: rgb(219, 4, 129);
+    border-radius: 50px;
+    width: 160px;
+    margin-top: 50px;
+    margin-left: 120px;
+    text-transform: uppercase;
+    
+
+}
+ /*    -------------------------------------------bot---------------------------------------------------    */
+ .pie{
+    display: flex;
+    background-color: rgb(56, 51, 51);
+    padding-top: 20px;
+}
+.espacio{
+    padding-right: 380px;
+    color: white;
+}
+.tamaño{
+    text-transform: uppercase;
+    color: white;
+}

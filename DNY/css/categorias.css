@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+/*    -------------------------------------------top---------------------------------------------------    */
+.contenedor{
+    display: flex;
+    background-color: rgb(39, 34, 34);
+    align-items: center;
+}
+.titulo-1{
+    color: white;
+    padding-right: 590px;
+    text-decoration: none;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+}
+/*    -------------------------------------------mid---------------------------------------------------    */
+h2{
+    text-align: center;
+    color: rgb(219, 4, 129);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.orden{
+    display: flex;
+}
+.fondo{
+    background-color: rgb(8, 4, 37);
+}
+.filas{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-decoration: none;
+    
+}
+.precio{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+/*    -------------------------------------------bot---------------------------------------------------    */
+.pie{
+    display: flex;
+    background-color: rgb(56, 51, 51);
+    padding-top: 20px;
+}
+.espacio{
+    padding-right: 380px;
+    color: white;
+}
+.tamaño{
+    text-transform: uppercase;
+    color: white;
+}
