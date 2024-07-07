@@ -9,8 +9,9 @@
 }
 .titulo-1{
     color: white;
-    padding-right: 590px;
     text-decoration: none;
+    margin: 0 auto;
+    margin-left: 0%;
 }
 .imagen{
     width: 40px;
@@ -20,22 +21,23 @@
 h2{
     text-align: center;
     color: rgb(219, 4, 129);
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-size: 50px;
     font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .orden{
     display: flex;
+    
 }
 .fondo{
     background-color: rgb(8, 4, 37);
+    padding-bottom: 20px;
 }
 .filas{
-    margin-left: 60px;
-    margin-right: 60px;
+
     text-decoration: none;
-    
+    margin: 0 auto;
 }
 .precio{
     text-align: center;
@@ -45,6 +47,11 @@ h2{
     margin-bottom: 20px;
     font-weight: 600;
 }
+.articulos{
+    width: 225px;
+    height: 225px;
+ 
+}
 /*    -------------------------------------------bot---------------------------------------------------    */
 .pie{
     display: flex;
@@ -52,10 +59,21 @@ h2{
     padding-top: 20px;
 }
 .espacio{
-    padding-right: 380px;
+    margin: 0 auto;
+    margin-left: 0%;
     color: white;
 }
 .tamaño{
     text-transform: uppercase;
     color: white;
+}
+/*    -------------------------------------------media queris---------------------------------------------------    */
+
+@media (min-width: 1000px) {
+    .fondo {
+        display: block;
+    }
+    .articulos{
+        width: 100%;
+    }
 }

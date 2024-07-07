@@ -17,8 +17,8 @@
 }
 .titulo-1{
     color: white;
-    margin: 0%;
-    margin-right: 590px;
+    margin: 0 auto;
+    margin-left: 0%;
 }
 .imagen{
     width: 40px;
@@ -27,6 +27,7 @@
 /*    -------------------------------------------blue---------------------------------------------------    */
 #titulo{
     background-image: url(./img-css/1.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 120px;
@@ -42,7 +43,7 @@
     border-radius: 50px;
     width: 200px;
     position: relative;
-    left: 42%;
+    margin: 0 auto;
 }
 h2{
     color: white;
@@ -60,7 +61,6 @@ h2{
 /*    -------------------------------------------medio---------------------------------------------------    */
 .medio{
     display: flex;
-   align-items: flex-start;
     
 }
 .red{
@@ -68,7 +68,7 @@ h2{
     font-size: 23px;
     width: 350px;
     text-align: center;
-    padding: 50px;
+    margin: 0 auto;
 }
 .fondo{
     background-color: rgb(8, 4, 37);
@@ -85,7 +85,7 @@ h2{
     font-size: 50px;
 }
 ul{
-    margin: 0%;
+    
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -97,11 +97,16 @@ ul{
     border-radius: 50px;
     width: 160px;
     margin-top: 50px;
-    margin-left: 120px;
+    margin: 0 auto;
     text-transform: uppercase;
+}
+.articulos{
+    height: 500px;
+    width: 700px;
+}
     
 
-}
+
  /*    -------------------------------------------bot---------------------------------------------------    */
  .pie{
     display: flex;
@@ -109,7 +114,8 @@ ul{
     padding-top: 20px;
 }
 .espacio{
-    padding-right: 380px;
+   margin: 0 auto;
+   margin-left: 0%;
     color: white;
 }
 .tamaño{
