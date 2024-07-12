@@ -30,8 +30,18 @@ h2{
     padding-bottom: 20px;
 }
 .orden{
-    display: flex;
-    
+display: flex;
+}
+.card{
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
+  }
+.card2{
+    padding: 2px 16px;
 }
 .fondo{
     background-color: rgb(8, 4, 37);
@@ -80,11 +90,12 @@ h2{
 }
 /*    -------------------------------------------media queris---------------------------------------------------    */
 
-@media (min-width: 1000px) {
-    .fondo {
+@media (max-width: 1000px) {
+    .orden {
         display: block;
     }
-    .articulos{
-        width: 100%;
+    .articulos, .precio{
+        width: 300px;
+
     }
 }
