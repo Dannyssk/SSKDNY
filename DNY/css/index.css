@@ -17,8 +17,12 @@
 }
 .titulo-1{
     color: white;
-    margin: 0 auto;
+    text-decoration: none;
+    margin: 1px;
     margin-left: 0%;
+}
+.buscador{
+    margin: 0 auto;
 }
 .imagen{
     width: 40px;
@@ -121,4 +125,23 @@ ul{
 .tamaño{
     text-transform: uppercase;
     color: white;
+
+}
+.social{
+   
+    width: 50px;
+    width: 50px;
+}
+.final{
+    display: flex;
+}
+/*    -------------------------------------------media queris---------------------------------------------------    */
+
+@media (max-width: 1000px) {
+    .medio {
+        display: block;
+    }
+    .articulos, .pain, .color{
+        width: 100%;
+    }
 }
