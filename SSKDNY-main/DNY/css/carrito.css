@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+/*    -------------------------------------------top---------------------------------------------------    */
+.contenedor{
+    display: flex;
+    background-color: rgb(39, 34, 34);
+    align-items: center;
+}
+.titulo-1{
+    color: white;
+    text-decoration: none;
+    margin: 1px;
+    margin-left: 0%;
+}
+.buscador{
+    margin: 0 auto;
+}
+#pago{
+    color: white;
+    font-size: 30px;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+}
+/*    -------------------------------------------mid---------------------------------------------------    */
+.fondo{
+    background-color: rgb(8, 4, 37);
+   padding: 20px 20px;
+}
+.fondoagregar{
+
+    background-color: rgb(56, 47, 192);
+    border-radius: 20px;
+    padding: 15px 10px;
+}
+.metodo{
+    color: white;
+    font-size: 20px;
+}
+.agregar{
+    color: skyblue;
+    font-size: 20px;
+}
+.unpoquitoparaabajo{
+    padding-bottom: 20px;
+}
+h3{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.orden{
+    display: flex;
+}
+.oferta{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.descuento{
+    color: red;
+    font-size: 25px;
+    text-decoration: line-through;
+    padding-bottom: 20px;
+}
+.articulo{
+    margin: 20px;
+}
+/*    -------------------------------------------descripcion---------------------------------------------------    */
+.descripcion{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+.total{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.pedido{
+    background-color: rgb(0, 255, 0);
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 15px 35px;
+    margin: 0 auto;
+    margin-right: 50px;
+}
+.precio{
+    margin: 0 auto;
+    
+}
+.as{
+    display: flex;
+}
+#terminos{
+    margin: auto;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 300px;
+    
+}
+/*    -------------------------------------------bot---------------------------------------------------    */
+.pie{
+    display: flex;
+    background-color: rgb(56, 51, 51);
+    padding-top: 20px;
+}
+.espacio{
+    margin: 0 auto;
+    margin-left: 0%;
+    color: white;
+}
+.tamaño{
+    text-transform: uppercase;
+    color: white;
+}
+.final{
+    display: flex;
+}
+.social{
+   
+    width: 50px;
+    width: 50px;
+}
+/*    -------------------------------------------media queris---------------------------------------------------    */
+
+@media (max-width: 1000px) {
+    .orden {
+        display: block;
+    }
+    .articulos{
+        width: 100%;
+    }
+}
